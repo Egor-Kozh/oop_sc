@@ -1,0 +1,15 @@
+D:\учеба\oop\lab2\lab2_3\bin\Debug\net10.0\lab2_3.exe
+D:\учеба\oop\lab2\lab2_3\bin\Debug\net10.0\lab2_3.deps.json
+D:\учеба\oop\lab2\lab2_3\bin\Debug\net10.0\lab2_3.runtimeconfig.json
+D:\учеба\oop\lab2\lab2_3\bin\Debug\net10.0\lab2_3.dll
+D:\учеба\oop\lab2\lab2_3\bin\Debug\net10.0\lab2_3.pdb
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\lab2_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\lab2_3.AssemblyInfoInputs.cache
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\lab2_3.AssemblyInfo.cs
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\lab2_3.csproj.CoreCompileInputs.cache
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\lab2_3.sourcelink.json
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\lab2_3.dll
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\refint\lab2_3.dll
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\lab2_3.pdb
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\lab2_3.genruntimeconfig.cache
+D:\учеба\oop\lab2\lab2_3\obj\Debug\net10.0\ref\lab2_3.dll
