@@ -1,0 +1,15 @@
+D:\учеба\oop\lab5\lab5_1\bin\Debug\net10.0\lab5_1.exe
+D:\учеба\oop\lab5\lab5_1\bin\Debug\net10.0\lab5_1.deps.json
+D:\учеба\oop\lab5\lab5_1\bin\Debug\net10.0\lab5_1.runtimeconfig.json
+D:\учеба\oop\lab5\lab5_1\bin\Debug\net10.0\lab5_1.dll
+D:\учеба\oop\lab5\lab5_1\bin\Debug\net10.0\lab5_1.pdb
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\lab5_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\lab5_1.AssemblyInfoInputs.cache
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\lab5_1.AssemblyInfo.cs
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\lab5_1.csproj.CoreCompileInputs.cache
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\lab5_1.sourcelink.json
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\lab5_1.dll
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\refint\lab5_1.dll
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\lab5_1.pdb
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\lab5_1.genruntimeconfig.cache
+D:\учеба\oop\lab5\lab5_1\obj\Debug\net10.0\ref\lab5_1.dll

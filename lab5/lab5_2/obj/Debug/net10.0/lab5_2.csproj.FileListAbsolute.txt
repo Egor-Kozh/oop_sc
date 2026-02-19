@@ -1,0 +1,15 @@
+D:\учеба\oop\lab5\lab5_2\bin\Debug\net10.0\lab5_2.exe
+D:\учеба\oop\lab5\lab5_2\bin\Debug\net10.0\lab5_2.deps.json
+D:\учеба\oop\lab5\lab5_2\bin\Debug\net10.0\lab5_2.runtimeconfig.json
+D:\учеба\oop\lab5\lab5_2\bin\Debug\net10.0\lab5_2.dll
+D:\учеба\oop\lab5\lab5_2\bin\Debug\net10.0\lab5_2.pdb
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\lab5_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\lab5_2.AssemblyInfoInputs.cache
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\lab5_2.AssemblyInfo.cs
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\lab5_2.csproj.CoreCompileInputs.cache
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\lab5_2.sourcelink.json
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\lab5_2.dll
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\refint\lab5_2.dll
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\lab5_2.pdb
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\lab5_2.genruntimeconfig.cache
+D:\учеба\oop\lab5\lab5_2\obj\Debug\net10.0\ref\lab5_2.dll

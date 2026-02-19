@@ -1,0 +1,15 @@
+D:\учеба\oop\lab4\lab4_7\bin\Debug\net10.0\lab4_7.exe
+D:\учеба\oop\lab4\lab4_7\bin\Debug\net10.0\lab4_7.deps.json
+D:\учеба\oop\lab4\lab4_7\bin\Debug\net10.0\lab4_7.runtimeconfig.json
+D:\учеба\oop\lab4\lab4_7\bin\Debug\net10.0\lab4_7.dll
+D:\учеба\oop\lab4\lab4_7\bin\Debug\net10.0\lab4_7.pdb
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\lab4_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\lab4_7.AssemblyInfoInputs.cache
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\lab4_7.AssemblyInfo.cs
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\lab4_7.csproj.CoreCompileInputs.cache
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\lab4_7.sourcelink.json
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\lab4_7.dll
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\refint\lab4_7.dll
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\lab4_7.pdb
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\lab4_7.genruntimeconfig.cache
+D:\учеба\oop\lab4\lab4_7\obj\Debug\net10.0\ref\lab4_7.dll
