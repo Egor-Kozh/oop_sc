@@ -15,7 +15,7 @@ public class Tests
     public void УченикВсеМетодыВозвращаютНеПустыеСтроки()
     {
         Pupil pupil = new Pupil();
-        
+
         Assert.IsNotEmpty(pupil.Study(), "Метод Study() не должен возвращать пустую строку");
         Assert.IsNotEmpty(pupil.Read(), "Метод Read() не должен возвращать пустую строку");
         Assert.IsNotEmpty(pupil.Write(), "Метод Write() не должен возвращать пустую строку");
@@ -95,25 +95,25 @@ public class Tests
         var pupil2 = new GoodPupil();
         var pupil3 = new ExcelentPupil();
         var pupil4 = new Pupil();
-        
+
         var classRoom2 = new ClassRoom(pupil1, pupil2);
         var classRoom3 = new ClassRoom(pupil1, pupil2, pupil3);
         var classRoom4 = new ClassRoom(pupil1, pupil2, pupil3, pupil4);
-        
+
         Assert.That(classRoom2.PupilCount, Is.EqualTo(2));
         Assert.That(classRoom3.PupilCount, Is.EqualTo(3));
         Assert.That(classRoom4.PupilCount, Is.EqualTo(4));
-}
+    }
 
     [Test]
     public void ВычислениеСреднейОценки()
     {
-        var pupil1 = new GoodPupil(); 
-        var pupil2 = new BadPupil();   
+        var pupil1 = new GoodPupil();
+        var pupil2 = new BadPupil();
         var classRoom = new ClassRoom(pupil1, pupil2);
-        
+
         double averageGrade = classRoom.GetRoundGrade();
-        
+
         Assert.That(averageGrade, Is.InRange(2.0, 5.0));
         Console.WriteLine($"Средняя оценка: {averageGrade}");
     }

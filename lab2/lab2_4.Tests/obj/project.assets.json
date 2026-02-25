@@ -615,6 +615,16 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {},
           "build/netcoreapp3.1/NUnit3TestAdapter.targets": {}
         }
+      },
+      "lab2_4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/lab2_4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lab2_4.dll": {}
+        }
       }
     }
   },
@@ -1504,6 +1514,11 @@
         "nunit3testadapter.nuspec",
         "nunit_256.png"
       ]
+    },
+    "lab2_4/1.0.0": {
+      "type": "project",
+      "path": "../lab2_4/lab2_4.csproj",
+      "msbuildProject": "../lab2_4/lab2_4.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1512,7 +1527,8 @@
       "NUnit >= 4.3.2",
       "NUnit.Analyzers >= 4.7.0",
       "NUnit3TestAdapter >= 5.0.0",
-      "coverlet.collector >= 6.0.4"
+      "coverlet.collector >= 6.0.4",
+      "lab2_4 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1539,7 +1555,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\учеба\\oop\\lab2\\lab2_4\\lab2_4.csproj": {
+              "projectPath": "D:\\учеба\\oop\\lab2\\lab2_4\\lab2_4.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

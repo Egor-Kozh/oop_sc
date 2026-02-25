@@ -43,7 +43,7 @@ namespace lab4_8
     public TypeThink ThinkType { get; private set; }
     public string ThoughtText { get; private set; }
 
-    private Think(TypeThink type, string thought)
+    public Think(TypeThink type, string thought)
     {
       ThinkType = type;
       ThoughtText = thought;

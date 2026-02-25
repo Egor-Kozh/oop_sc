@@ -5,6 +5,8 @@ namespace lab2_2
     private static double _totalBalance = 0;
     protected double _balance;
 
+    private Account _owner;
+
     private CreditAccount? _creditAccount;
 
     private DebitAccount? _debitAccount;
@@ -12,17 +14,18 @@ namespace lab2_2
     private CurrentAccount _currentAccount;
 
     public Account(double balance)
-    { 
-      if(GetType() == typeof(Account))
+    {
+      if (GetType() == typeof(Account))
       {
         CreateCurrentAccount(balance);
+        _owner = this;
       }
       else
       {
         _balance = balance;
         _totalBalance += balance;
       }
-    } 
+    }
 
     public virtual void TopUpBalance(double money)
     {
@@ -32,7 +35,7 @@ namespace lab2_2
 
     public virtual void WithdrawBalance(double money)
     {
-      if(money <= 30_000)
+      if (money <= 30_000)
       {
         _balance -= money;
         _totalBalance -= money;
@@ -49,41 +52,56 @@ namespace lab2_2
       toAcc.TopUpBalance(money);
     }
 
-    public double Balance{
-      get {return _balance;}
-      set {_balance = value;}
+    public double Balance
+    {
+      get { return _balance; }
+      set { _balance = value; }
     }
 
-    public static double TotalBalance{
-      get {return _totalBalance;}
-      set {_totalBalance = value;}
+    public static double TotalBalance
+    {
+      get { return _totalBalance; }
+      set { _totalBalance = value; }
     }
+
+    private void SetOwner(Account owner)
+    {
+      _owner = owner;
+    }
+
+    protected Account? Owner => _owner;
 
     public void CreateCreditAccount(double money)
     {
       _creditAccount = new CreditAccount(money);
+      _creditAccount.SetOwner(this);
     }
 
     public void CreateDebitAccount(double money)
     {
       _debitAccount = new DebitAccount(money);
+      _debitAccount.SetOwner(this);
     }
 
     public void CreateCurrentAccount(double money)
     {
       _currentAccount = new CurrentAccount(money);
+      _currentAccount.SetOwner(this);
     }
 
-    public CreditAccount CreditAccount{
-      get {return _creditAccount;}
+    public CreditAccount CreditAccount
+    {
+      get { return _creditAccount; }
     }
 
-    public DebitAccount DebitAccount{
-      get {return _debitAccount;}
+    public DebitAccount DebitAccount
+    {
+      get { return _debitAccount; }
     }
 
-    public CurrentAccount CurrentAccount{
-      get {return _currentAccount;}
+    public CurrentAccount CurrentAccount
+    {
+      get { return _currentAccount; }
     }
   }
 }

@@ -2,13 +2,13 @@ namespace lab2_3
 {
   public class ClassRoom
   {
-    private static int _pupilCount;
+    private int _pupilCount;
 
     private Pupil _pupil1;
     private Pupil _pupil2;
     private Pupil? _pupil3;
     private Pupil? _pupil4;
-    
+
     public ClassRoom(Pupil pupil1, Pupil pupil2, Pupil pupil3, Pupil pupil4)
     {
       _pupil1 = pupil1;
@@ -38,16 +38,16 @@ namespace lab2_3
 
     public double GetRoundGrade()
     {
-      if(_pupilCount == 2)
+      if (_pupilCount == 2)
       {
         return (_pupil1.GetCurrentGrade + _pupil2.GetCurrentGrade) / _pupilCount;
       }
-      if(_pupilCount == 3)
+      if (_pupilCount == 3)
       {
-        return (_pupil1.GetCurrentGrade + _pupil2.GetCurrentGrade + 
+        return (_pupil1.GetCurrentGrade + _pupil2.GetCurrentGrade +
         _pupil3.GetCurrentGrade) / _pupilCount;
       }
-      if(_pupilCount == 4)
+      if (_pupilCount == 4)
       {
         return (_pupil1.GetCurrentGrade + _pupil2.GetCurrentGrade +
         _pupil3.GetCurrentGrade + _pupil4.GetCurrentGrade) / _pupilCount;
@@ -57,7 +57,7 @@ namespace lab2_3
 
     public int PupilCount
     {
-      get{return _pupilCount;}
+      get { return _pupilCount; }
     }
   }
 }

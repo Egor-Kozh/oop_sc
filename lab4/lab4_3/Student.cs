@@ -31,7 +31,7 @@ namespace lab4_3
     public int NetworksGrade { get; private set; }
     public int OptimizationMethodsGrade { get; private set; }
 
-    private Student(string firstName, string lastName, string patronymic,
+    public Student(string firstName, string lastName, string patronymic,
                    int programming, int philosophy, int networks, int optimization)
     {
       FirstName = firstName;

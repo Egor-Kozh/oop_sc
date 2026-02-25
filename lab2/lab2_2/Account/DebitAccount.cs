@@ -33,7 +33,12 @@ namespace lab2_2
 
     private bool Check()
     {
-      return base.CreditAccount != null ? base.CreditAccount.Balance >= -20_000 : true;
-    } 
+      if (Owner.CreditAccount != null)
+      {
+        Console.WriteLine($"{Owner.CreditAccount.Balance} КРЕЕДИИТТ!!!");
+      }
+
+      return Owner.CreditAccount != null ? Owner.CreditAccount.Balance >= -20_000 : true;
+    }
   }
 }

@@ -37,8 +37,8 @@ namespace lab2_2
 
     public double TotalBalance
     {
-        get { return _totalBalance; }
-        private set { _totalBalance = value; }
+      get { return _totalBalance; }
+      private set { _totalBalance = value; }
     }
   }
 }
